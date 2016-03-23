@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+        "noImplicitAny": true,
+        "module": "commonjs",
+        "target": "ES5",
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "sourceMap": true,
+        "declaration": true
+    },
+    "files": [
+        "ng2rest.ts",
+        "typings/es6-promise/es6-promise.d.ts",
+        "typings/es6-collections/es6-collections.d.ts"
+    ],
+    "exclude": [
+        "node_modules"
+    ]
+}
