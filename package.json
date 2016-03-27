@@ -1,7 +1,7 @@
 {
   "name": "ng2rest",
-  "version": "0.1.2",
-  "description": "RESTful Api service for A Angular2 TypeScript Apps. Must install bootstrap HTTP_PROVIDERS and RestApiService.",
+  "version": "0.1.3",
+  "description": "RESTful service for Angular2 apps. Must bootstrap(MyComponent, [HTTP_PROVIDERS, RestApiService]);",
   "main": "ng2rest.js",
   "scripts": {
     "prepublish": "tsc"

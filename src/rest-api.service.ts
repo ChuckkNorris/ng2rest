@@ -1,11 +1,10 @@
 import { HTTP_PROVIDERS, Http } from 'angular2/http';
-import { Injectable, Inject } from 'angular2/core';
+import { Injectable } from 'angular2/core';
 import { RestRequest } from './rest-request.model';
 
-
 @Injectable()
-export class RestApiService {
-    constructor( private _http: Http) {}
+export class RestService {
+    constructor(private _http: Http) {}
     // Sent with each request
     public globalParameters: {[name: string]: string} = {};
    // public baseUrl: string;
